@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --white: hsl(0, 0%, 100%);
+        --light-gray: hsl(212, 45%, 89%);
+        --grayish-blue: hsl(220, 15%, 55%);
+        --dark-blue: hsl(218, 44%, 22%);
+      }
+      * {
+        margin: 0;
+      }
+      *,
+      ::after,
+      ::before {
+        box-sizing: border-box;
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+        line-height: 1.3;
+      }
+      body {
+        font-size: 15px;
+        font-family: Outfit, sans-serif;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      style="
+        background-color: var(--light-gray);
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <div
+        style="
+          background-color: var(--white);
+          margin: 20px;
+          padding: 20px;
+          border-radius: 1.375rem;
+          text-align: center;
+        "
+      >
+        <div style="max-width: 275px">
+          <img
+            draggable="false"
+            src="images/image-qr-code.png"
+            alt="QR"
+            style="border-radius: 0.75rem; max-width: 100%"
+          />
+          <div style="padding: 20px 10px">
+            <h3 style="font-size: 1.25rem">
+              Improve your front-end skills by building projects
+            </h3>
+            <p style="padding-top: 15px; color: var(--grayish-blue)">
+              Scan the QR code to visit Frontend Mentor and take your coding
+              skills to the next level
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="mail:ubuntulinuxf6@gmail.com">Ubuntu</a>.
+    </div>
+  </body>
+</html>
